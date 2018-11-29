@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	
+	
+	<link rel="shortcut icon" href="img/logo-icon.ico" />
+	<link rel="stylesheet" type="text/css"  href="css/style.css" />
+    <title>Otaku Shop</title>
+</head>
+<body>
+    <header>
+		<div id="topWrapper">
+			<div id="top">
+				<div id="logo">
+					<a href="index.html" title="Home"><img src="img/logo2.png" alt="Logo"/></a>
+				</div>
+				<div id="searchAndLoginWrapper">
+					<div id="loginWrapper">
+						<a id="cart" href="#">My cart <i class="fas fa-shopping-cart"></i></a>
+						<a id="signUp" href="#">Sign up</a>
+						<a id="login" href="#">Login</a>
+						<!-- Da li treba ovde cleaner posto posle nema kontenta u ovom divu (posle poslednjeg <a> taga)?
+						<div class="cleaner"></div> 
+						-->
+					</div>
+					<div class="cleaner"></div>
+					<div id="searchWrapper">
+						<form action="">
+							<input type="search" name="search" id="search" placeholder="search" autocomplete="off" />
+							<button id="btnSearch" type="submit"><i class="fas fa-search"></i></button>
+							<div class="cleaner"></div>
+						</form>
+					</div>
+				</div>
+				<nav id="headerNav">
+					<ul>
+						<li><a class="currentPage" href="index.html">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Free Artwork</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+						<div class="cleaner"></div>
+					</ul>
+				</nav>
+				<div class="cleaner"></div>
+			</div>
+		</div>
+		<div id="slogan">
+			<h1><span>Largest</span> collection of mangas. <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The <span>only</span> shop of this kind in Serbia.</h1>
+		</div>
+	</header>
+	<div id="contentWrapper">
+		<main>
+			<div id="discountBanner">
+				<img src="img/banner.jpg" alt="Discount banner" />
+			</div>
+			<div class="itemWrapper">
+				<h2>On discount</h2>
+				<div class="itemList">
+					<div class="item">
+						<figure class="itemImg">
+							<img src="img/manga-covers/black-butler.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Black Butler</figcaption>
+						</figure>
+						<span class="discountPrice">39.99&euro;</span>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">29.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item">
+						<figure class="itemImg">
+							<img src="img/manga-covers/another.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Another</figcaption>
+						</figure>
+						<span class="discountPrice">34.99&euro;</span>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="price">24.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item">
+						<figure class="itemImg">
+							<img src="img/manga-covers/mirai-nikki.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Mirai Nikki</figcaption>
+						</figure>
+						<span class="discountPrice">41.99&euro;</span>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="price">34.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item">
+						<figure class="itemImg">
+							<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+						</figure>
+						
+						<span class="discountPrice">44.99&euro;</span>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">34.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="cleaner"></div>
+				</div>
+			</div>
+			<div class="itemWrapper">
+				<h2>New releases</h2>
+				<div class="itemList">
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/the-raising-of-the-shield-hero.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">The Raising of the Shield Hero</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings invisible">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="price">23.49&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/angels-of-death.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Angels of Death</figcaption>
+						</figure>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="price">27.90&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/juushinki-pandora.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Juushniki Pandora</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings invisible">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">22.79&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/lord-of-vermilion-the-crimson-king.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Lord of Vermilion: The Crimson King</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</span>
+							<span class="price">29.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="cleaner"></div>
+				</div>
+			</div>
+			<div class="itemWrapper">
+				<h2>Most popular titles</h2>
+				<div class="itemList">
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/naruto.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Naruto</figcaption>
+						</figure>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">43.49&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/bleach.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Bleach</figcaption>
+						</figure>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</span>
+							<span class="price">39.90&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/one-piece.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">One Piece</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</span>
+							<span class="price">34.90&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/death-note.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Death Note</figcaption>
+						</figure>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">44.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="cleaner"></div>
+					
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/tokyo-ghoul.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Tokyo Ghoul</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings ">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">23.49&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/attack-on-titan.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Attack on Titan</figcaption>
+						</figure>
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							</span>
+							<span class="price">28.90&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/fmab.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Fullmetal Alchemist: Brotherhood</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</span>
+							<span class="price">32.79&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="item nonDiscountedItem">
+						<figure class="itemImg">
+							<img src="img/manga-covers/sao.jpg" alt="Cover" />
+							<figcaption class="itemTitle unselectable">Sword Art Online</figcaption>
+						</figure>
+						
+						<div class="priceAndRatings">
+							<span class="ratings">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</span>
+							<span class="price">34.99&euro;</span>
+						</div>
+						<span class="viewMore unselectable">
+							Add to cart <i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
+					<div class="cleaner"></div>
+				</div>
+			</div>
+		</main>
+		<div id="sidebar">
+			<div id="adWrapper">
+				<div class="ad">
+					<img src="img/ad1.jpg" alt="Advertisement" />
+				</div>
+			</div>
+			<aside>
+				<div id="newsWrapper" class="sidebarSection"> <!-- Da li je dozvoljeno koristiti HTML5 bez koriscenja section i article tagova 
+																	i da li bi moglo da se krene od h3 taga pa da se grana na h4 posle?
+				-->
+					<h2>News</h2>
+					<div class="news">
+						<img src="img/news-covers/news1.jpg" alt="News" />
+						<p class="unselectable">'Real' music group performs new ending theme for 'Boruto' Anime</p>
+					</div>
+					<div class="news">
+						<img src="img/news-covers/news2.jpg" alt="News" />
+						<p class="unselectable">Deku's popularity falters in My Hero Academia popularity poll</p>
+					</div>
+					<div class="news">
+						<img src="img/news-covers/news3.jpg" alt="News" />
+						<p class="unselectable">Reki Kawahara writes original short story for Sword Art Online: Alicization Anime's BD/DVDs</p>
+					</div>
+					<div class="news">
+						<img src="img/news-covers/news4.jpg" alt="News" />
+						<p class="unselectable">Kuroko's Basketball's conclusion stage play reveals new visual, full cast</p>
+					</div>
+				</div>
+				<div id="upcomingMangas" class="sidebarSection">
+					<div>
+						<img src="img/icons/uzumaki-boruto.png" alt="Icon" /> <!-- Kako da namestim da slika izlazi van bodija a da bude iskljucen skrol, i da kada zumiram stranicu da skrol bude vidljiv? -->
+					</div>
+					<h2>Upcoming Mangas</h2>
+					<h3>November 2018</h3>
+					<ul>
+						<li>Platinum End Chapter 36</li>
+						<li>Anonymous Noise, Vol. 11</li>
+						<li>Black Clover, Vol. 13</li>
+						<li>Black Torch, Vol. 2</li>
+						<li>Demon Slayer: Kimetsu no Yaiba, Vol. 3</li>
+						<li>Dragon Ball: That Time I Got Reincarnated as Yamcha!</li>
+						<!--<li>Haikyu!!, Vol. 29</li>
+						<li>Idol Dreams, Vol. 5</li>
+						<li>JoJo’s Bizarre Adventure: Part 3--Stardust Crusaders, Vol. 9</li>
+						<li>Kaguya-sama: Love Is War, Vol. 5</li>
+						<li>One Piece, Vol. 88</li>
+						<li>Shortcake Cake, Vol. 2</li> -->
+					</ul>
+					<h3>December 2018</h3>
+					<ul>
+						<li>Ao Haru Ride, Vol. 2</li>
+						<li>Astra Lost in Space, Vol. 5</li>
+						<li>Food Wars!: Shokugeki no Soma, Vol. 27</li>
+						<li>Juni Taisen: Zodiac War (manga), Vol. 2</li>
+						<li>Kimi ni Todoke: From Me to You, Vol. 30</li>
+						<li>Kuroko’s Basketball, Vol. 15</li>
+						<li>My Hero Academia, Vol. 16</li>
+						<li>One Piece (Omnibus Edition), Vol. 26</li>
+						<li>Platinum End, Vol. 7</li>
+						<!--<li>Queen's Quality, Vol. 6</li>
+						<li>Takane & Hana, Vol. 6</li>
+						<li>The Promised Neverland, Vol. 7</li>
+						<li>The Young Master’s Revenge, Vol. 4</li>
+						<li>We Never Learn, Vol. 1</li>
+						<li>Yona of the Dawn, Vol. 15</li>
+						<li>After Hours, Vol. 3</li> -->
+					</ul>
+					<h3>January 2019</h3>
+					<ul>
+						<li>Anonymous Noise, Vol. 12</li>
+						<li>Blue Exorcist, Vol. 21</li>
+						<li>Demon Slayer: Kimetsu no Yaiba, Vol. 4</li>
+						<li>Dr. STONE, Vol. 3</li>
+						<li>Dragon Ball Super, Vol. 4</li>
+						<li>My Hero Academia: Vigilantes, Vol. 3</li>
+						<li>Rurouni Kenshin (4-in-1 Edition), Vol. 9</li>
+					</ul>
+					<h3>February 2019</h3>
+					<ul>
+						<li>Ao Haru Ride, Vol. 3</li>
+						<li>Black Clover, Vol. 14</li>
+						<li>Black Torch, Vol. 3</li>
+						<li>Food Wars!: Shokugeki no Soma, Vol. 28</li>
+						<li>JoJo's Bizarre Adventure: Part 3--Stardust Crusaders, Vol. 10</li>
+						<li>Juni Taisen: Zodiac War (manga), Vol. 3</li>
+						<li>My Hero Academia, Vol. 17</li>
+						<!--<li>One Piece, Vol. 89</li>
+						<li>Oresama Teacher, Vol. 25</li>
+						<li>Shortcake Cake, Vol. 3</li>
+						<li>Takane & Hana, Vol. 7</li>
+						<li>The Promised Neverland, Vol. 8</li>
+						<li></li>We Never Learn, Vol. 2></li> -->
+					</ul>
+				</div>
+			</aside>
+		</div>
+		<div class="cleaner"></div>
+		
+	</div>
+	
+	<footer>
+		<div id="footerContent">
+			<div class="footerSection">
+				<h3>Info</h3>
+				<nav>
+					<ul>
+						<li><a href="#">About author</a></li>
+						<li><a href="#">RSS Feed</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footerSection">
+				<h3>Socials</h3>
+				<ul id="socials">
+					<li><span href="#"><i class="fab fa-facebook-f"></i></span></li>
+					<li><span href="#"><i class="fab fa-twitter"></i></span></li>
+					<li><span href="#"><i class="fab fa-instagram"></i></span></li>
+				</ul>
+			</div>
+			<div id="newsletter" class="footerSection">
+			<div>
+				<img src="img/icons/kyouraku.png" alt="Anime icon"/>
+			</div>
+			<div id="newsletterContent">
+				<p>Subscribe to our newsletter!</p>
+				<form action="">
+					<input type="email" name="email" id="newsletterEmail" placeholder="Enter your email here."/>
+					<button id="btnNewsletterEmail" type="submit"><i class="fas fa-arrow-right"></i></button>
+					<div class="cleaner"></div>
+				</form>
+			</div>
+		</div>
+		</div>
+		<p id="copyright">Copyright &copy; OtakuShop.rs. Designed by Andrej Zarkovski </p>
+	</footer>
+</body>
+</html>
