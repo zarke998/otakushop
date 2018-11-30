@@ -39,12 +39,14 @@ header{
 	position: relative;
 	width: 100%;
 	height: 600px;
-	background-image: url('../img/background.jpg');
+	background-image: url('../img/background2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-
+.shortenedHeader{
+	height: 450px;
+}
 #topWrapper{
 	position:relative;
 	width: 95%;
@@ -62,7 +64,6 @@ header{
 	animation-delay: 0.5s;
 	
 }
-
 #logo{
 	float: left;
 	margin: 16px 0px;
@@ -101,7 +102,7 @@ header{
 #headerNav ul li a:hover{
 	color:#ff41a0;
 	border-bottom: 2px solid #ff41a0;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 
 
@@ -192,13 +193,13 @@ header{
 
 
 /*CONTENT*/
-#contentWrapper{
+.contentWrapper{
 	width: 95%;
 	margin: 0px auto;
 }
 
 /* MAIN */
-main{
+#homeMain{
 	float: left;
 	width:69.5%;
 	margin: 30px 0.5%;
@@ -213,11 +214,11 @@ main{
 .itemWrapper h2{
 	color: #0C0E22;
 	font-size: 26px;
+	margin-bottom: 10px;
 }
 
 .itemList{
 	width: 100%;
-	margin-top: 10px;
 }
 
 .itemList .item{
@@ -244,13 +245,12 @@ main{
 	cursor: pointer;
 }
 
-.itemTitle{
+.itemTitle h3{
 	color: #000;
 	font-size: 17px;
 	font-weight: normal;
 	padding-top: 5px;
 	box-sizing: border-box;
-	
 }
 .itemTitle:hover{
 	cursor: pointer;
@@ -344,7 +344,7 @@ main{
 
 }
 
-.sidebarSection h2{
+.sidebarSection h3{
 	font-size:24px;
 	color: #0C0E22;
 	margin-bottom: 15px;
@@ -373,12 +373,13 @@ main{
 #upcomingMangas{
 	position: relative;
 }
-#upcomingMangas h3{
+#upcomingMangas h4{
 	margin-top: 20px;
 	margin-left: 30px;
 	margin-bottom: 10px;
 	/*color: #ff2400;*/
 	color:#FF0080;
+	font-size: 20px;
 }
 #upcomingMangas ul{
 	margin-left: 40px;
@@ -403,6 +404,7 @@ main{
 #footerContent{
 	display: flex;
 	width: 100%;
+	margin-top: 50px;
 	justify-content: space-between;
 	border-top: 1px solid #e6e6e6;
 }
@@ -519,6 +521,170 @@ main{
 	padding: 15px;
 }
 
+/* ------------------------------------------------------  				SHOP			------------------------------ */
+
+#shopMain{
+	width: 98%;
+	margin: 0px auto;
+
+}
+
+#filterWrapper{
+	width: 21%;
+	float:left;
+	height: 1000px;
+	margin-top: 35px;
+	border-right: 1px solid #d4d4d4;
+	
+	/*background: red;*/
+}
+#productsWrapper{
+	width:78%;
+	float:left;
+	margin-top: 25px;
+	/*background: black;*/
+}
+
+#shopTitle{
+	width: 100%;
+	text-align:center;
+	margin-bottom: 40px;
+}
+#shopTitle h1{
+	font-size: 32px;
+}
+
+.shopNav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.shopNav div{
+	width: 275px;
+}
+
+.productFilter{
+	display: flex;
+	align-items: center;
+}
+
+.productFilter span{
+	margin: 0px 10px;
+	color: #585858;
+	font-size: 18px;
+}
+.productFilter select{
+	height: 30px;
+	width: 50px;
+	font-size: 16px;
+	border: 3px solid #b3b3b3;
+}
+.productFilter select:focus{
+	border: 3px solid #FF0080;
+	outline: none;
+}
+
+.shopNav ul{
+	display:flex;
+}
+
+.shopNav ul li{
+	display: block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #969696;
+	border-radius: 5px;
+	padding-top: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: 0px 3px;
+	cursor: pointer;
+	text-align: center;
+	color: #4a4a4a;
+	
+	/*unselectable*/
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+   -moz-user-select: none;     /* Firefox all */
+   -ms-user-select: none;
+}
+.shopNav .currentPage{
+	color: #FFF;
+	background-color: #FF0080;
+	border: none;
+	width: 26px;
+	height: 26px;
+}
+.shopNav .next{
+	color: #FFF;
+	background-color: #FF0080;
+	/*border: 1px solid #FF0080;*/
+}
+
+.productFilter .productSort{
+	width: 200px;
+}
+
+
+#filterWrapper h3{
+	text-align: center;
+	font-size: 26px;
+}
+
+
+.filter h4{
+	font-size: 22px;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+.filter div {
+	position: relative;
+	margin-left: 25px;
+	margin-bottom: 8px;
+	padding-left: 22px;
+	display: flex;
+	align-items: center;
+}
+
+.filter input{
+	position: absolute;
+	opacity: 0;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+}
+.filter label{
+	margin-left: 15px;
+	font-size: 18px;
+}
+.customCheckbox{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 22px;
+	height: 22px;
+	border: 3px solid grey;
+}
+.customCheckbox i{
+	margin-left: 4px;
+	margin-top: 4px;
+	font-size: 14px;
+	color: #FF0080;
+	display: none;
+}
+.filter input:checked ~ .customCheckbox{
+	border: 3px solid #FF0080;
+}
+.filter input:checked ~ .customCheckbox i{
+	display: block;
+}
+
+
 /* ANIMATIONS */
 @keyframes sloganFadeIn{
 	0% { bottom:0%; opacity:0.0;}
@@ -537,4 +703,7 @@ main{
 }
 .invisible{
 	visibility: hidden;
+}
+#top.disable-animation{
+	animation: none;
 }

@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	
+	
+	<link rel="shortcut icon" href="img/logo-icon.ico" />
+	<link rel="stylesheet" type="text/css"  href="css/style.css" />
+    <title>Otaku Shop</title>
+</head>
+<body>
+    <header class="shortenedHeader">
+		<div id="topWrapper">
+			<div id="top" class="disable-animation">
+				<div id="logo">
+					<a href="index.html" title="Home"><img src="img/logo2.png" alt="Logo"/></a>
+				</div>
+				<div id="searchAndLoginWrapper">
+					<div id="loginWrapper">
+						<a id="cart" href="#">My cart <i class="fas fa-shopping-cart"></i></a>
+						<a id="signUp" href="#">Sign up</a>
+						<a id="login" href="#">Login</a>
+						<!-- Da li treba ovde cleaner posto posle nema kontenta u ovom divu (posle poslednjeg <a> taga)?
+						<div class="cleaner"></div> 
+						-->
+					</div>
+					<div class="cleaner"></div>
+					<div id="searchWrapper">
+						<form action="">
+							<input type="search" name="search" id="search" placeholder="search" autocomplete="off" />
+							<button id="btnSearch" type="submit"><i class="fas fa-search"></i></button>
+							<div class="cleaner"></div>
+						</form>
+					</div>
+				</div>
+				<nav id="headerNav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a class="currentPage" href="#">Shop</a></li>
+						<li><a href="#">Free Artwork</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+						<div class="cleaner"></div>
+					</ul>
+				</nav>
+				<div class="cleaner"></div>
+			</div>
+		</div>
+	</header>
+	
+	<main id="shopMain">
+		<div id="filterWrapper"> <!-- Da li je bitna hijerarhija za h tagove u odnosu na h1 tag? -->
+			<h3>Filters</h3>
+			<div class="filter">
+				<h4>Categories</h4>
+				<ul>
+					<li></li>
+				</ul>
+				
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Adventure</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Cars</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Dementia</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Demons</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Drama</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Anime</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Fantasy</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Game</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Historical</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Horror</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Josei</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Kids</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Magic</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Martial Arts</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Mecha</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Military</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Music</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Myster</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Parody</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Police</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Psychological</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Romance</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Samurai</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>School</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Sci-Fi</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Seinen</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Shoujo</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Shounen</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Slice of Life</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Space</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Sports</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Super Power</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Supernatural</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Thriller</label>
+				</div>
+				<div>
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Vampire</label>
+				</div>
+				
+			</div>
+		</div>
+		<div id="productsWrapper">
+			<div id="shopTitle">
+				<h1>Shop</h1>
+			</div>
+			<div class="shopNav">
+				<div class="productFilter">
+					<span>Items 1-16 of 89</span>
+					<select>
+						<option value="16" selected>16</option>
+						<option value="24">24</option>
+						<option value="32">32</option>
+					</select>
+				</div>
+				<div class="shopPage">
+					<ul>
+						<li class="currentPage"><span>1</span></li>
+						<li><span>2</span></li>
+						<li><span>3</span></li>
+						<li><span>4</span></li>
+						<li><span>5</span></li>
+						<li class="next"><span><i class="fas fa-angle-right"></i></span></li>
+						<li class="next"><span><i class="fas fa-angle-double-right"></i></span></li>
+					</ul>
+				</div>
+				<div class="productFilter">
+					<span>Sort by</span>
+					<select class="productSort">
+						<option>Product name A-Z</option>
+						<option>Product name Z-A</option>
+						<option>Price ascending</option>
+						<option>Price descendnig</option>
+					</select>
+				</div>
+			</div>
+			<div class="itemList">
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/black-butler.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Black Butler</figcaption>
+					</figure>
+					<span class="discountPrice">39.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">29.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/another.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Another</figcaption>
+					</figure>
+					<span class="discountPrice">34.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</span>
+						<span class="price">24.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/mirai-nikki.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Mirai Nikki</figcaption>
+					</figure>
+					<span class="discountPrice">41.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="item">
+					<figure class="itemImg">
+						<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
+						<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+					</figure>
+					
+					<span class="discountPrice">44.99&euro;</span>
+					<div class="priceAndRatings">
+						<span class="ratings">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</span>
+						<span class="price">34.99&euro;</span>
+					</div>
+					<span class="viewMore unselectable">
+						Add to cart <i class="fas fa-shopping-cart"></i>
+					</span>
+				</div>
+				<div class="cleaner"></div>
+			</div>
+			<div class="shopNav">
+				<div class="productFilter">
+					<span>Items 1-16 of 89</span>
+					<select>
+						<option value="16" selected>16</option>
+						<option value="24">24</option>
+						<option value="32">32</option>
+					</select>
+				</div>
+				<div class="shopPage">
+					<ul>
+						<li class="currentPage"><span>1</span></li>
+						<li><span>2</span></li>
+						<li><span>3</span></li>
+						<li><span>4</span></li>
+						<li><span>5</span></li>
+						<li class="next"><span><i class="fas fa-angle-right"></i></span></li>
+						<li class="next"><span><i class="fas fa-angle-double-right"></i></span></li>
+					</ul>
+				</div>
+				<div class="productFilter">
+					<span>Sort by</span>
+					<select class="productSort">
+						<option>Product name A-Z</option>
+						<option>Product name Z-A</option>
+						<option>Price ascending</option>
+						<option>Price descendnig</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="cleaner"></div>
+	</main>
+	
+	<footer>
+		<div id="footerContent">
+			<div class="footerSection">
+				<h3>Info</h3>
+				<nav>
+					<ul>
+						<li><a href="#">About author</a></li>
+						<li><a href="#">RSS Feed</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footerSection">
+				<h3>Socials</h3>
+				<ul id="socials">
+					<li><span href="#"><i class="fab fa-facebook-f"></i></span></li>
+					<li><span href="#"><i class="fab fa-twitter"></i></span></li>
+					<li><span href="#"><i class="fab fa-instagram"></i></span></li>
+				</ul>
+			</div>
+			<div id="newsletter" class="footerSection">
+			<div>
+				<img src="img/icons/kyouraku.png" alt="Anime icon"/>
+			</div>
+			<div id="newsletterContent">
+				<p>Subscribe to our newsletter!</p>
+				<form action="">
+					<input type="email" name="email" id="newsletterEmail" placeholder="Enter your email here."/>
+					<button id="btnNewsletterEmail" type="submit"><i class="fas fa-arrow-right"></i></button>
+					<div class="cleaner"></div>
+				</form>
+			</div>
+		</div>
+		</div>
+		<p id="copyright">Copyright &copy; OtakuShop.rs. Designed by Andrej Zarkovski </p>
+	</footer>
+</body>
+</html>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=0.9">
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -38,7 +39,7 @@
 				<nav id="headerNav">
 					<ul>
 						<li><a class="currentPage" href="index.html">Home</a></li>
-						<li><a href="#">Shop</a></li>
+						<li><a href="shop.html">Shop</a></li>
 						<li><a href="#">Free Artwork</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">About</a></li>
@@ -53,18 +54,18 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The <span>only</span> shop of this kind in Serbia.</h1>
 		</div>
 	</header>
-	<div id="contentWrapper">
-		<main>
+	<div class="contentWrapper">
+		<main id="homeMain">
 			<div id="discountBanner">
 				<img src="img/banner.jpg" alt="Discount banner" />
 			</div>
 			<div class="itemWrapper">
 				<h2>On discount</h2>
-				<div class="itemList">
+				<div class="itemList"> <!-- Da li je potreban cleaner posle jednog reda, jer ce se i bez cleanera sledeci red popakovati ispod trenutnog reda? -->
 					<div class="item">
 						<figure class="itemImg">
 							<img src="img/manga-covers/black-butler.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Black Butler</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Black Butler</h3></figcaption>
 						</figure>
 						<span class="discountPrice">39.99&euro;</span>
 						<div class="priceAndRatings">
@@ -84,7 +85,7 @@
 					<div class="item">
 						<figure class="itemImg">
 							<img src="img/manga-covers/another.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Another</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Another</h3></figcaption>
 						</figure>
 						<span class="discountPrice">34.99&euro;</span>
 						<div class="priceAndRatings">
@@ -104,7 +105,7 @@
 					<div class="item">
 						<figure class="itemImg">
 							<img src="img/manga-covers/mirai-nikki.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Mirai Nikki</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Mirai Nikki</h3></figcaption>
 						</figure>
 						<span class="discountPrice">41.99&euro;</span>
 						<div class="priceAndRatings">
@@ -124,7 +125,7 @@
 					<div class="item">
 						<figure class="itemImg">
 							<img src="img/manga-covers/kuroko.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Kuroko no Basket</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Kuroko no Basket</h3></figcaption>
 						</figure>
 						
 						<span class="discountPrice">44.99&euro;</span>
@@ -151,7 +152,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/the-raising-of-the-shield-hero.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">The Raising of the Shield Hero</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>The Raising of the Shield Hero</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -171,7 +172,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/angels-of-death.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Angels of Death</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Angels of Death</h3></figcaption>
 						</figure>
 						<div class="priceAndRatings">
 							<span class="ratings">
@@ -190,7 +191,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/juushinki-pandora.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Juushniki Pandora</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Juushniki Pandora</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -210,7 +211,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/lord-of-vermilion-the-crimson-king.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Lord of Vermilion: The Crimson King</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Lord of Vermilion: The Crimson King</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -236,7 +237,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/naruto.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Naruto</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Naruto</h3></figcaption>
 						</figure>
 						<div class="priceAndRatings">
 							<span class="ratings">
@@ -255,7 +256,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/bleach.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Bleach</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Bleach</h3></figcaption>
 						</figure>
 						<div class="priceAndRatings">
 							<span class="ratings">
@@ -274,7 +275,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/one-piece.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">One Piece</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>One Piece</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -294,7 +295,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/death-note.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Death Note</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Death Note</h3></figcaption>
 						</figure>
 						<div class="priceAndRatings">
 							<span class="ratings">
@@ -315,7 +316,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/tokyo-ghoul.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Tokyo Ghoul</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Tokyo Ghoul</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -335,7 +336,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/attack-on-titan.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Attack on Titan</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Attack on Titan</h3></figcaption>
 						</figure>
 						<div class="priceAndRatings">
 							<span class="ratings">
@@ -354,7 +355,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/fmab.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Fullmetal Alchemist: Brotherhood</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Fullmetal Alchemist: Brotherhood</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -374,7 +375,7 @@
 					<div class="item nonDiscountedItem">
 						<figure class="itemImg">
 							<img src="img/manga-covers/sao.jpg" alt="Cover" />
-							<figcaption class="itemTitle unselectable">Sword Art Online</figcaption>
+							<figcaption class="itemTitle unselectable"><h3>Sword Art Online</h3></figcaption>
 						</figure>
 						
 						<div class="priceAndRatings">
@@ -405,7 +406,7 @@
 				<div id="newsWrapper" class="sidebarSection"> <!-- Da li je dozvoljeno koristiti HTML5 bez koriscenja section i article tagova 
 																	i da li bi moglo da se krene od h3 taga pa da se grana na h4 posle?
 				-->
-					<h2>News</h2>
+					<h3>News</h3>
 					<div class="news">
 						<img src="img/news-covers/news1.jpg" alt="News" />
 						<p class="unselectable">'Real' music group performs new ending theme for 'Boruto' Anime</p>
@@ -427,8 +428,8 @@
 					<div>
 						<img src="img/icons/uzumaki-boruto.png" alt="Icon" /> <!-- Kako da namestim da slika izlazi van bodija a da bude iskljucen skrol, i da kada zumiram stranicu da skrol bude vidljiv? -->
 					</div>
-					<h2>Upcoming Mangas</h2>
-					<h3>November 2018</h3>
+					<h3>Upcoming Mangas</h3>
+					<h4>November 2018</h4>
 					<ul>
 						<li>Platinum End Chapter 36</li>
 						<li>Anonymous Noise, Vol. 11</li>
@@ -443,7 +444,7 @@
 						<li>One Piece, Vol. 88</li>
 						<li>Shortcake Cake, Vol. 2</li> -->
 					</ul>
-					<h3>December 2018</h3>
+					<h4>December 2018</h4>
 					<ul>
 						<li>Ao Haru Ride, Vol. 2</li>
 						<li>Astra Lost in Space, Vol. 5</li>
@@ -462,7 +463,7 @@
 						<li>Yona of the Dawn, Vol. 15</li>
 						<li>After Hours, Vol. 3</li> -->
 					</ul>
-					<h3>January 2019</h3>
+					<h4>January 2019</h4>
 					<ul>
 						<li>Anonymous Noise, Vol. 12</li>
 						<li>Blue Exorcist, Vol. 21</li>
@@ -472,7 +473,7 @@
 						<li>My Hero Academia: Vigilantes, Vol. 3</li>
 						<li>Rurouni Kenshin (4-in-1 Edition), Vol. 9</li>
 					</ul>
-					<h3>February 2019</h3>
+					<h4>February 2019</h4>
 					<ul>
 						<li>Ao Haru Ride, Vol. 3</li>
 						<li>Black Clover, Vol. 14</li>
