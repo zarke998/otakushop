@@ -532,9 +532,10 @@ header{
 #filterWrapper{
 	width: 21%;
 	float:left;
-	height: 1000px;
 	margin-top: 35px;
+	padding-bottom: 30px;
 	border-right: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
 	
 	/*background: red;*/
 }
