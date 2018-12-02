@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	
+	<link rel="shortcut icon" href="img/logo-icon.ico" />
+	<link rel="stylesheet" type="text/css"  href="css/style.css" />
+    <title>Otaku Shop</title>
+</head>
+<body>
+    <header class="shortenedHeader">
+		<div id="topWrapper">
+			<div id="top" class="disable-animation">
+				<div id="logo">
+					<a href="index.html" title="Home"><img src="img/logo2.png" alt="Logo"/></a>
+				</div>
+				<div id="searchAndLoginWrapper">
+					<div id="loginWrapper">
+						<a id="cart" href="#">My cart <i class="fas fa-shopping-cart"></i></a>
+						<a id="signUp" href="#">Sign up</a>
+						<a id="login" href="#">Login</a>
+						<!-- Da li treba ovde cleaner posto posle nema kontenta u ovom divu (posle poslednjeg <a> taga)?
+						<div class="cleaner"></div> 
+						-->
+					</div>
+					<div class="cleaner"></div>
+					<div id="searchWrapper">
+						<form action="">
+							<input type="search" name="search" id="search" placeholder="search" autocomplete="off" />
+							<button id="btnSearch" type="submit"><i class="fas fa-search"></i></button>
+							<div class="cleaner"></div>
+						</form>
+					</div>
+				</div>
+				<nav id="headerNav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a class="currentPage" href="#">Free Artwork</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+						<div class="cleaner"></div>
+					</ul>
+				</nav>
+				<div class="cleaner"></div>
+			</div>
+		</div>
+	</header>
+
+	<main id="artworkMain">
+		<h1>Free artwork</h1>
+		<div id="artworkWrapper">
+			<div class="artworkItem"> <!-- Kako da namestim da se visina div-a prilagodjava visini slike koju sadrzi? -->
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>2,180</p></span>
+							<span><i class="far fa-heart"></i> <p>10</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/sao.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>1,500</p></span>
+							<span><i class="far fa-heart"></i> <p>7</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/kaneki.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>1,102</p></span>
+							<span><i class="far fa-heart"></i> <p>25</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/blue-and-red.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>4,543</p></span>
+							<span><i class="far fa-heart"></i> <p>121</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/sasuke.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>3,435</p></span>
+							<span><i class="far fa-heart"></i> <p>87</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/charlotte.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>4,445</p></span>
+							<span><i class="far fa-heart"></i> <p>102</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/rukia.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>2,564</p></span>
+							<span><i class="far fa-heart"></i> <p>54</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/naruto-and-sasuke.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>1,989</p></span>
+							<span><i class="far fa-heart"></i> <p>46</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/fmab.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>1,143</p></span>
+							<span><i class="far fa-heart"></i> <p>34</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/shigatsu-wa-kimi-no-uso.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>5,654</p></span>
+							<span><i class="far fa-heart"></i> <p>167</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/code-geass.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>7,676</p></span>
+							<span><i class="far fa-heart"></i> <p>254</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/touka.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>6,465</p></span>
+							<span><i class="far fa-heart"></i> <p>202</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/sao-swords.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>5,541</p></span>
+							<span><i class="far fa-heart"></i> <p>178</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/dbs.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>2,454</p></span>
+							<span><i class="far fa-heart"></i> <p>134</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/multiple-characters.jpg" alt="Gallery item" />
+			</div>
+			<div class="artworkItem">
+				<div class="imageOverlay">
+					<div class="overlayTop">
+						<i class="far fa-heart"></i>
+					</div>
+					<div class="overlayBottom">
+						<div class="overlayBottomLeft unselectable">
+							<span><i class="far fa-eye"></i> <p>3,878</p></span>
+							<span><i class="far fa-heart"></i> <p>87</p> </span>
+						</div>
+						<div class="overlayBottomRight">
+							<i class="fas fa-arrow-down"></i>
+						</div>
+					</div>
+				</div>
+				<img src="img/gallery/thumbnails/death-note.jpg" alt="Gallery item" />
+			</div>
+			<div id="loadMore" class="unselectable">
+				<p>Load more <i class="fas fa-sort-down"></i></p>
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+		<div id="footerContent">
+			<div class="footerSection">
+				<h3>Info</h3>
+				<nav>
+					<ul>
+						<li><a href="#">About author</a></li>
+						<li><a href="#">RSS Feed</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footerSection">
+				<h3>Socials</h3>
+				<ul id="socials">
+					<li><span href="#"><i class="fab fa-facebook-f"></i></span></li>
+					<li><span href="#"><i class="fab fa-twitter"></i></span></li>
+					<li><span href="#"><i class="fab fa-instagram"></i></span></li>
+				</ul>
+			</div>
+			<div id="newsletter" class="footerSection">
+			<div>
+				<img src="img/icons/kyouraku.png" alt="Anime icon"/>
+			</div>
+			<div id="newsletterContent">
+				<p>Subscribe to our newsletter!</p>
+				<form action="">
+					<input type="email" name="email" id="newsletterEmail" placeholder="Enter your email here."/>
+					<button id="btnNewsletterEmail" type="submit"><i class="fas fa-arrow-right"></i></button>
+					<div class="cleaner"></div>
+				</form>
+			</div>
+		</div>
+		</div>
+		<p id="copyright">Copyright &copy; OtakuShop.rs. Designed by Andrej Zarkovski</p>
+	</footer>
+</body>
+</html>

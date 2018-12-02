@@ -1,6 +1,7 @@
 /* #ff41a0 pink */
 /* #ff1288 dark pink */
 
+/* #0C0E22 headings color */
 *{
 	margin: 0px;
 	padding: 0px;
@@ -8,6 +9,7 @@
 
 html{
 	height: 100%;
+	width: 100%;
 }
 body{
 	height: 100%;
@@ -32,7 +34,6 @@ a{
 }
 
 input[type="search"]::-webkit-search-cancel-button {display: none;}
-
 /* HEADER */
 
 header{
@@ -192,7 +193,7 @@ header{
 }
 
 
-/*CONTENT*/
+/* ----------------------------------------------------------- HOME ------------------------------------------------------- */
 .contentWrapper{
 	width: 95%;
 	margin: 0px auto;
@@ -393,8 +394,9 @@ header{
 	position: absolute;
 	right:-120px;
 	top: -20px;
-	z-index: -1;
-	
+	width: 200px;
+	height: 351px;
+	background-image:url("../img/icons/uzumaki-boruto.png");	
 }
 #upcomingMangas div:first-child img{
 	width: 200px;
@@ -482,6 +484,7 @@ header{
 	padding-right: 0px;
 	text-align: left;
 	display:flex;
+	justify-content: center;
 }
 #newsletter img{
 	width: 70px;
@@ -685,6 +688,128 @@ header{
 	display: block;
 }
 
+/* --------------------------------------------------------- FREE  ARTWORK -------------------------------------------- */
+#artworkMain{
+	width: 98%;
+	margin:35px auto;
+}
+
+#artworkMain h1{
+	text-align: center;
+	font-size: 32px;
+	color: #0C0E22;
+}
+
+#artworkWrapper{
+	width: 100%;
+	border-top:1px solid #eaeaeac9;
+	border-bottom:1px solid #eaeaeac9;
+	padding: 20px 0px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.artworkItem {
+	position:relative;
+	margin: 10px 10px;
+	box-shadow:0px 0px 5px #000;
+}
+.artworkItem img{
+	display: block;
+}
+
+.imageOverlay{
+	visibility: hidden;
+	position:absolute;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+	background:rgba(0,0,0,0.2);
+}
+.artworkItem:hover .imageOverlay {
+	visibility: visible;
+	cursor: zoom-in;
+}
+
+.imageOverlay .overlayTop{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.imageOverlay .overlayTop i{
+	display:block;
+	color: #FFF;
+	padding: 10px;
+	font-size: 24px;
+	cursor: pointer;
+}
+.imageOverlay .overlayTop i:hover{
+	color: #FF0080;
+}
+
+.imageOverlay .overlayBottom{
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	padding:5px 10px;
+	cursor: default;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.imageOverlay .overlayBottom .overlayBottomLeft{
+	color: #FFF;
+	font-size: 14px;
+}
+.imageOverlay .overlayBottom .overlayBottomLeft span{
+	margin-right: 5px;
+}
+.imageOverlay .overlayBottom .overlayBottomLeft p{
+	display:inline;
+}
+.imageOverlay .overlayBottom .overlayBottomRight i{
+	color: #FFF;
+	font-size: 24px;
+}
+.imageOverlay .overlayBottom .overlayBottomRight i:hover{
+	color: #FF0080;
+	cursor: pointer;
+}
+
+#loadMore{
+	padding: 8px;
+	border: 3px solid grey;
+	margin-top: 5px;
+}
+#loadMore p{
+	color: #525252;
+}
+#loadMore i{
+	margin-bottom: 5px;
+	margin-left: 5px;
+	font-size: 22px;
+	color: grey;
+}
+#loadMore:hover{
+	border: 3px solid #FF0080;
+	cursor: pointer;
+}
+#loadMore:hover i{
+	color:#FF0080;
+}
+#loadMore:hover p{
+	 color: #272727;
+ }
+
+
+#loadMore:hover
 
 /* ANIMATIONS */
 @keyframes sloganFadeIn{
