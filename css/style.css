@@ -807,10 +807,6 @@ header{
 #loadMore:hover p{
 	 color: #272727;
  }
-
-
-#loadMore:hover
-
 /* ANIMATIONS */
 @keyframes sloganFadeIn{
 	0% { bottom:0%; opacity:0.0;}
