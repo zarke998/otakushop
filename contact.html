@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	
+	
+	<link rel="shortcut icon" href="img/logo-icon.ico" />
+	<link rel="stylesheet" type="text/css"  href="css/style.css" />
+    <title>Otaku Shop</title>
+</head>
+<body>
+    <header class="shortenedHeader">
+		<div id="topWrapper">
+			<div id="top" class="disable-animation">
+				<div id="logo">
+					<a href="index.html" title="Home"><img src="img/logo2.png" alt="Logo"/></a>
+				</div>
+				<div id="searchAndLoginWrapper">
+					<div id="loginWrapper">
+						<a id="cart" href="#">My cart <i class="fas fa-shopping-cart"></i></a>
+						<a id="signUp" href="#">Sign up</a>
+						<a id="login" href="#">Login</a>
+						<!-- Da li treba ovde cleaner posto posle nema kontenta u ovom divu (posle poslednjeg <a> taga)?
+						<div class="cleaner"></div> 
+						-->
+					</div>
+					<div class="cleaner"></div>
+					<div id="searchWrapper">
+						<form action="">
+							<input type="search" name="search" id="search" placeholder="search" autocomplete="off" />
+							<button id="btnSearch" type="submit"><i class="fas fa-search"></i></button>
+							<div class="cleaner"></div>
+						</form>
+					</div>
+				</div>
+				<nav id="headerNav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a href="free-artwork.html">Free Artwork</a></li>
+						<li><a class="currentPage" href="contact.html">Contact</a></li>
+						<li><a href="#">About</a></li>
+						<div class="cleaner"></div>
+					</ul>
+				</nav>
+				<div class="cleaner"></div>
+			</div>
+		</div>
+	</header>
+	
+	<main id="contactMain">
+		<h1>Contact</h1>
+		<div id="contactWrapper">
+			<div id="info">
+				<h2>Info</h2>
+				<div id="workTime">
+					<h3>Work time</h3>
+					<p><span>Mon-Fri</span> 08:00-20:00 <span>Sat</span> 08:00-16:00</p>
+				</div>
+				<div id="contactInfo">
+					<h3>Phone number: <span>061-1122334</span> </h3>
+					<h3>Email: <span>zarke998@gmail.com</span></h3> 
+					<h3>Facebook: <span class="contactSocial">www.facebook.com</span></h3> 
+					<h3>Twitter: <span class="contactSocial">www.twitter.com</span> </h3> 
+					<h3>Instagram: <span class="contactSocial">www.instagram.com</span></h3>
+				</div>
+			</div>
+			<div id="location">
+				<img src="img/google-maps.jpg" alt="Google maps" />
+			</div>
+			
+		</div>
+	</main>
+	
+	<footer>
+		<div id="footerContent">
+			<div class="footerSection">
+				<h3>Info</h3>
+				<nav>
+					<ul>
+						<li><a href="#">About author</a></li>
+						<li><a href="#">RSS Feed</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footerSection">
+				<h3>Socials</h3>
+				<ul id="socials">
+					<li><span href="#"><i class="fab fa-facebook-f"></i></span></li>
+					<li><span href="#"><i class="fab fa-twitter"></i></span></li>
+					<li><span href="#"><i class="fab fa-instagram"></i></span></li>
+				</ul>
+			</div>
+			<div id="newsletter" class="footerSection">
+			<div>
+				<img src="img/icons/kyouraku.png" alt="Anime icon"/>
+			</div>
+			<div id="newsletterContent">
+				<p>Subscribe to our newsletter!</p>
+				<form action="">
+					<input type="email" name="email" id="newsletterEmail" placeholder="Enter your email here."/>
+					<button id="btnNewsletterEmail" type="submit"><i class="fas fa-arrow-right"></i></button>
+					<div class="cleaner"></div>
+				</form>
+			</div>
+		</div>
+		</div>
+		<p id="copyright">Copyright &copy; OtakuShop.rs. Designed by Andrej Zarkovski </p>
+	</footer>
+</body>
+</html>
