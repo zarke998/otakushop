@@ -233,7 +233,7 @@ header{
 
 .itemList .item:hover{
 	border: 1px solid #c7c7c7;
-	box-shadow: 1px 1px 5px grey;
+	box-shadow: 1px 1px 5px #808080;
 }
 
 .itemImg{
@@ -303,7 +303,7 @@ header{
 	margin-top: 10px;
 	margin-right: 8px;
 	margin-bottom: 10px;
-	box-shadow: 0.5px 0.5px 2px grey;
+	box-shadow: 0.5px 0.5px 2px #808080;
 	padding: 5px;
 	/*background-color: #86b7fa;*/
 	background-color:#3c8eff;
@@ -342,7 +342,7 @@ header{
 .sidebarSection:hover{
 	border-left: 1px solid #d2d2d2;
 	border-bottom: 1px solid #d2d2d2;
-	/*box-shadow: 1px 0px 5px grey;*/
+	/*box-shadow: 1px 0px 5px #808080;*/
 
 }
 
@@ -673,7 +673,7 @@ header{
 	left: 0px;
 	width: 22px;
 	height: 22px;
-	border: 3px solid grey;
+	border: 3px solid #808080;
 }
 .customCheckbox i{
 	margin-left: 4px;
@@ -787,7 +787,7 @@ header{
 
 #loadMore{
 	padding: 8px;
-	border: 3px solid grey;
+	border: 3px solid #808080;
 	margin-top: 5px;
 }
 #loadMore p{
@@ -797,7 +797,7 @@ header{
 	margin-bottom: 5px;
 	margin-left: 5px;
 	font-size: 22px;
-	color: grey;
+	color: #808080;
 }
 #loadMore:hover{
 	border: 3px solid #FF0080;
@@ -818,7 +818,7 @@ header{
 }
  
 #contactWrapper{
-	width: 90%;
+	width: 85%;
 	margin: 0px auto;
 	margin-top: 40px;
 	display: flex;
@@ -826,12 +826,8 @@ header{
 	border: 1px solid #dadada;
 }
 #info{
-	width: 30%;
-	height: 300px;
+	width: 40%;
 	font-size: 20px;
-	text-align:left;
-	box-sizing: border-box;
-	padding: 0px 20px;
 }
 #info h2{
 	font-size: 32px;
@@ -843,15 +839,10 @@ header{
 }
 #workTime h3{
 	margin-bottom: 5px;
-	font-size: 20px;
-
 }
 #workTime p span{
 	color: #FF0080;
 	font-weight: bold;
-}
-#contactInfo h3{
-	font-size: 20px;
 }
 #contactInfo span{
 	font-weight: normal;
@@ -862,11 +853,70 @@ header{
 	color: #FF0080;
 }
 
-
 #location{
-	width: 70%;
+	margin-top: 20px;
+	width: 100%;
 	height: 300px;
-	background-color: #dadada;
+}
+#location iframe{
+	width: 100%;
+	height: inherit;
+}
+
+#customerShopReview{
+	width: 60%;
+	border-left: 1px solid #dadada;
+}
+
+#customerShopReview form{
+	width: 80%;
+	margin: 30px auto;
+}
+#customerShopReview form input{
+	display: block;
+	width: 70%;
+	height: 40px;
+	margin: 10px auto;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding: 5px;
+	color: #525252;
+}
+#customerShopReview form input:focus{
+	outline: 2px solid #FF0080;
+}
+#customerShopReview form #subject{
+	width: 100%;
+	margin-top: 20px;
+}
+#customerShopReview form textarea{
+	width: 100%;
+	height: 300px;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding: 5px;
+	color: #525252;
+}
+#customerShopReview form textarea:focus{
+	outline: 2px solid #FF0080;
+}
+
+#customerShopReview form input[type="submit"]{
+	width: 60%;
+	background-color: #FFF;
+	border: none;
+	outline: 3px solid #808080;
+	color: #525252;
+}
+#customerShopReview form input[type="submit"]:hover{
+	outline: 3px solid #FF0080;
+	color: #FF0080;
+}
+.contactSection{
+	text-align:center;
+	box-sizing: border-box;
+	padding: 10px 20px;
+
 }
 /* ANIMATIONS */
 @keyframes sloganFadeIn{

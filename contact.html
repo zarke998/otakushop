@@ -52,7 +52,7 @@
 	
 	<main id="contactMain">
 		<h1>Contact</h1>
-		<div id="contactWrapper">
+		<div id="contactWrapper" class="contactSection">
 			<div id="info">
 				<h2>Info</h2>
 				<div id="workTime">
@@ -66,9 +66,20 @@
 					<h3>Twitter: <span class="contactSocial">www.twitter.com</span> </h3> 
 					<h3>Instagram: <span class="contactSocial">www.instagram.com</span></h3>
 				</div>
+				<div id="location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.340635090178!2d20.481691315509234!3d44.814624679098706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2sICT+College+of+Vocational+Studies!5e0!3m2!1sen!2srs!4v1544053962096" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</div>
-			<div id="location">
-				<img src="img/google-maps.jpg" alt="Google maps" />
+			<div id="customerShopReview" class="contactSection">
+				<h2>Tell us about your experience with us</h2>
+				<form>
+					<input type="text" name="firstName" id="firstName" placeholder="First name" />
+					<input type="text" name="lastName" id="lastName" placeholder="Last name" />
+					<input type="email" name="email" id="email" placeholder="Email" />
+					<input type="text" name="subject" id="subject" placeholder="Subject" />
+					<textarea name="message" id="message" placeholder="Type your message here..."></textarea>
+					<input type="submit" value="Send" />
+				</form>
 			</div>
 			
 		</div>
