@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://zarke998.github.io/otakushop/</loc>
+  <lastmod>2018-12-07</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://zarke998.github.io/otakushop/shop.html</loc>
+  <lastmod>2018-12-07</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://zarke998.github.io/otakushop/free-artwork.html</loc>
+  <lastmod>2018-12-07</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://zarke998.github.io/otakushop/contact.html</loc>
+  <lastmod>2018-12-07</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://zarke998.github.io/otakushop/about.html</loc>
+  <lastmod>2018-12-07</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://zarke998.github.io/otakushop/login.html</loc>
+  <lastmod>2018-12-07</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.5</priority>
+</url>
+
+</urlset>

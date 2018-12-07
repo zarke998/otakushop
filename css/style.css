@@ -1,7 +1,3 @@
-/* #ff41a0 pink */
-/* #ff1288 dark pink */
-
-/* #0C0E22 headings color */
 *{
 	margin: 0px;
 	padding: 0px;
@@ -40,7 +36,7 @@ header{
 	position: relative;
 	width: 100%;
 	height: 600px;
-	background-image: url('../img/background3.jpg');
+	background-image: url('../img/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -196,7 +192,7 @@ header{
 
 
 /* ----------------------------------------------------------- HOME ------------------------------------------------------- */
-.contentWrapper{
+#contentWrapper{
 	width: 95%;
 	margin: 0px auto;
 }
@@ -445,7 +441,7 @@ header{
 	margin: 0px 10px;
 }
 
-#socials li span{
+#socials li a{
 	display: inline-block;
 	width: 50px;
 	height: 50px;
@@ -455,7 +451,7 @@ header{
 	border-radius: 50%;
 }
 
-#socials li span i{
+#socials li a i{
 	color: #000;
 	font-size: 22px;
 	margin-top: 13px;
@@ -465,19 +461,19 @@ header{
 	cursor: pointer;
 }
 
-#socials li:nth-child(1):hover span{
+#socials li:nth-child(1):hover a{
 	background-color: #4267b2;
 	border: 1px solid #4267b2;
 }
-#socials li:nth-child(2):hover span{
+#socials li:nth-child(2):hover a{
 	background-color: #4da6e9;
 	border: 1px solid #4da6e9;
 }
-#socials li:nth-child(3):hover span{
+#socials li:nth-child(3):hover a{
 	background-color: #FF0080;
 	border: 1px solid #fd2c79;
 }
-#socials li:hover span i{
+#socials li:hover a i{
 	color: #FFF;
 }
 
@@ -848,8 +844,11 @@ header{
 #contactInfo span{
 	font-weight: normal;
 }
+#contactInfo .contactSocial{
+	color: #000;
+	font-weight: normal;
+}
 #contactInfo .contactSocial:hover{
-	cursor: pointer;
 	text-decoration: underline;
 	color: #FF0080;
 }
@@ -1010,8 +1009,7 @@ header{
 	outline:none;
 }
 .formStyle input[type=submit]{
-	width: 30%;
-	margin-left: 70%;
+	width: 100%;
 	border: 3px solid #808080;
 	background-color:#FFF;
 	color: #525252;
@@ -1060,7 +1058,9 @@ header{
 	width: 28px;
 	height: 28px;
 	margin:0px;
-}/* ANIMATIONS */
+}
+
+/* ANIMATIONS */
 @keyframes sloganFadeIn{
 	0% { bottom:0%; opacity:0.0;}
 	100%{bottom: 10%; opacity:1.0;}
@@ -1072,13 +1072,13 @@ header{
 
 /*CUSTOM CLASSES */
 .unselectable{
-	-webkit-user-select: none;  /* Chrome all / Safari all */
-   -moz-user-select: none;     /* Firefox all */
+	-webkit-user-select: none;
+   -moz-user-select: none;     
    -ms-user-select: none;
 }
 .invisible{
 	visibility: hidden;
 }
 #top.disable-animation{
-	animation: none;
+	animation:none;
 }

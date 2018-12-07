@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
 	<meta charset="utf-8" />
+	<meta name="description" content="Welcome to Otaku shop. Otaku shop is the only shop of this type in the region. We have the biggest and the most recent collection of manga. If you consider yourself an otaku, then this manga shop is the perfect place for you." />
+	<meta name="keywords" content="shop,manga,otaku,anime,free artwork,artwork" />
+	<meta name="author" content="Andrej Zarkovski" />
+	<title>Otaku Shop | Free artwork</title>
+	<link rel="shortcut icon" href="img/logo-icon.ico" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-	
-	<link rel="shortcut icon" href="img/logo-icon.ico" />
+	<link rel="preload" as="image" href="img/background.jpg">
 	<link rel="stylesheet" type="text/css"  href="css/style.css" />
-    <title>Otaku Shop</title>
 </head>
 <body>
     <header class="shortenedHeader">
 		<div id="topWrapper">
 			<div id="top" class="disable-animation">
 				<div id="logo">
-					<a href="index.html" title="Home"><img src="img/logo2.png" alt="Logo"/></a>
+					<a href="index.html" title="Home"><img src="img/logo.png" alt="Logo"/></a>
 				</div>
 				<div id="searchAndLoginWrapper">
 					<div id="loginWrapper">
@@ -28,7 +31,7 @@
 					<div class="cleaner"></div>
 					<div id="searchWrapper">
 						<form action="">
-							<input type="search" name="search" id="search" placeholder="search" autocomplete="off" />
+							<input type="search" id="search" placeholder="search" autocomplete="off" />
 							<button id="btnSearch" type="submit"><i class="fas fa-search"></i></button>
 							<div class="cleaner"></div>
 						</form>
@@ -322,16 +325,16 @@
 					<ul>
 						<li><a href="about.html">About author</a></li>
 						<li><a href="rss.xml">RSS Feed</a></li>
-						<li><a href="#">Sitemap</a></li>
+						<li><a href="sitemap.xml">Sitemap</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="footerSection">
 				<h3>Socials</h3>
 				<ul id="socials">
-					<li><span href="#"><i class="fab fa-facebook-f"></i></span></li>
-					<li><span href="#"><i class="fab fa-twitter"></i></span></li>
-					<li><span href="#"><i class="fab fa-instagram"></i></span></li>
+					<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				</ul>
 			</div>
 			<div id="newsletter" class="footerSection">
@@ -341,7 +344,7 @@
 			<div id="newsletterContent">
 				<p>Subscribe to our newsletter!</p>
 				<form action="">
-					<input type="email" name="email" id="newsletterEmail" placeholder="Enter your email here."/>
+					<input type="email" id="newsletterEmail" placeholder="Enter your email here."/>
 					<button id="btnNewsletterEmail" type="submit"><i class="fas fa-arrow-right"></i></button>
 					<div class="cleaner"></div>
 				</form>
@@ -350,5 +353,14 @@
 		</div>
 		<p id="copyright">Copyright &copy; OtakuShop.rs. Designed by Andrej Zarkovski</p>
 	</footer>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130640839-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-130640839-1');
+	</script>
 </body>
 </html>
