@@ -855,8 +855,9 @@ header{
 }
 
 #location{
+	margin: 0px auto;
 	margin-top: 20px;
-	width: 100%;
+	width: 95%;
 	height: 300px;
 }
 #location iframe{
@@ -867,6 +868,8 @@ header{
 #customerShopReview{
 	width: 60%;
 	border-left: 1px solid #dadada;
+	box-sizing: border-box;
+	padding-top: 20px;
 }
 
 #customerShopReview form{
@@ -916,8 +919,7 @@ header{
 .contactSection{
 	text-align:center;
 	box-sizing: border-box;
-	padding: 10px 20px;
-
+	padding: 10px 0px;
 }
 
 

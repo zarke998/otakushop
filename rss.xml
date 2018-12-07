@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>New releases</title>
+  <link>https://zarke998.github.io/otakushop</link>
+  <description>Newest releases in the world of manga.</description>
+  <item>
+    <title>The Raising of the Shield Hero</title>
+    <link>https://zarke998.github.io/otakushop</link>
+    <description>New manga release</description>
+  </item>
+  <item>
+    <title>Angels of Death</title>
+    <link>https://zarke998.github.io/otakushop</link>
+    <description>New manga release</description>
+  </item>
+  <item>
+    <title>Juushinki Pandora</title>
+    <link>https://zarke998.github.io/otakushop</link>
+    <description>New manga release</description>
+  </item>
+  <item>
+    <title>Lord of Vermillion: The Crimson King</title>
+    <link>https://zarke998.github.io/otakushop</link>
+    <description>New manga release</description>
+  </item>
+</channel>
+
+</rss>
