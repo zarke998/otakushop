@@ -175,8 +175,10 @@ header{
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
 }
-#slogan h1{
+#slogan h1, #slogan p{
+	display: inline;
 	color:#FFF;
+	font-weight: bold;
 	text-shadow: 2px 2px #000;
 	font-family: 'Mukta', sans-serif;
 	font-size: 32px;
@@ -184,7 +186,10 @@ header{
 	
 	line-height: 1.5;
 }
-#slogan h1 span{
+#slogan h1{
+	color:#ff1288;
+}
+#slogan span{
 	color:#ff1288;
 	text-shadow: 2.5px 2.5px #000;
 	
