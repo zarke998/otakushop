@@ -474,7 +474,7 @@ header{
 	border: 1px solid #4da6e9;
 }
 #socials li:nth-child(3):hover span{
-	background-color: #fd2c79;
+	background-color: #FF0080;
 	border: 1px solid #fd2c79;
 }
 #socials li:hover span i{
@@ -645,7 +645,7 @@ header{
 	margin-bottom: 20px;
 }
 
-.filter div {
+.myCheckbox {
 	position: relative;
 	margin-left: 25px;
 	margin-bottom: 8px;
@@ -654,7 +654,7 @@ header{
 	align-items: center;
 }
 
-.filter input{
+.myCheckbox input{
 	position: absolute;
 	opacity: 0;
 	z-index: 2;
@@ -664,11 +664,11 @@ header{
 	height: 28px;
 	cursor: pointer;
 }
-.filter label{
+.myCheckbox label{
 	margin-left: 15px;
 	font-size: 18px;
 }
-.customCheckbox{
+.myCheckbox .customCheckbox{
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -676,17 +676,17 @@ header{
 	height: 22px;
 	border: 3px solid #808080;
 }
-.customCheckbox i{
+.myCheckbox .customCheckbox i{
 	margin-left: 4px;
 	margin-top: 4px;
 	font-size: 14px;
 	color: #FF0080;
 	display: none;
 }
-.filter input:checked ~ .customCheckbox{
+.myCheckbox input:checked ~ .customCheckbox{
 	border: 3px solid #FF0080;
 }
-.filter input:checked ~ .customCheckbox i{
+.myCheckbox input:checked ~ .customCheckbox i{
 	display: block;
 }
 
@@ -972,7 +972,93 @@ header{
 	color:#FF0080;
 	border-bottom: 2px solid #FF0080;
 }
-/* ANIMATIONS */
+
+/*---------------------------------------------------- LOGIN --------------------------------------- */
+#loginMain{
+	width: 75%;
+	margin: 50px auto;
+	border: 2px solid #dadada;
+	box-sizing: border-box;
+	padding: 30px 30px;
+	display:flex;
+	justify-content:space-between;
+}
+#login{
+	width: 40%;
+	text-align: center;
+}
+#login h1{
+	font-size: 38px;
+	margin-bottom: 20px;
+}
+.formStyle{
+	width: 100%;
+}
+.formStyle input{
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 15px 0px;
+}
+
+.formStyle input:focus{
+	border: 2px solid #FF0080;
+	outline:none;
+}
+.formStyle input[type=submit]{
+	width: 30%;
+	margin-left: 70%;
+	border: 3px solid #808080;
+	background-color:#FFF;
+	color: #525252;
+}
+.formStyle input[type=submit]:hover{
+	border:3px solid #FF0080;
+	color:#FF0080;
+}
+.formStyle p{
+	font-size: 22px;
+	color: #525252;
+	text-align: center;
+}
+.formStyle .googleAccount{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 10px 0px;
+	background-color:#fb45a0;
+}
+.formStyle .googleAccount p{
+	color: #FFF;
+}
+.formStyle .googleAccount:hover{
+	background-color:#FF0080;
+	cursor: pointer;
+}
+#register{
+	width: 60%;
+	box-sizing: border-box;
+	padding: 20px 0px;
+	padding-left: 75px;
+	margin-left: 75px;
+	padding-right:20px;
+	border-left: 3px solid #dadada;
+}
+#register h2{
+	font-size: 28px;
+}
+
+.loginCheckbox{
+	margin-left: 0px;
+}
+
+.loginCheckbox input{
+	width: 28px;
+	height: 28px;
+	margin:0px;
+}/* ANIMATIONS */
 @keyframes sloganFadeIn{
 	0% { bottom:0%; opacity:0.0;}
 	100%{bottom: 10%; opacity:1.0;}

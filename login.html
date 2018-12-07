@@ -40,8 +40,8 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="shop.html">Shop</a></li>
 						<li><a href="free-artwork.html">Free Artwork</a></li>
-						<li><a class="currentPage" href="contact.html">Contact</a></li>
-						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a class="currentPage" href="about.html">About</a></li>
 						<div class="cleaner"></div>
 					</ul>
 				</nav>
@@ -50,38 +50,39 @@
 		</div>
 	</header>
 	
-	<main id="contactMain">
-		<h1>Contact</h1>
-		<div id="contactWrapper" class="contactSection">
-			<div id="info">
-				<h2>Info</h2>
-				<div id="workTime">
-					<h3>Work time</h3>
-					<p><span>Mon-Fri</span> 08:00-20:00 <span>Sat</span> 08:00-16:00</p>
+	<main id="loginMain">
+		<div id="login">
+			<h1>Login</h1>
+			<form class="formStyle" action="">
+				<input type="text" placeholder="Username" />
+				<input type="password" placeholder="Password" />
+				<div class="myCheckbox loginCheckbox">
+					<input type="checkbox"/>
+					<span class="customCheckbox"><i class="fas fa-check"></i></span>
+					<label>Remember me</label>
 				</div>
-				<div id="contactInfo">
-					<h3>Phone number: <span>061-1122334</span> </h3>
-					<h3>Email: <span>zarke998@gmail.com</span></h3> 
-					<h3>Facebook: <span class="contactSocial">www.facebook.com</span></h3> 
-					<h3>Twitter: <span class="contactSocial">www.twitter.com</span> </h3> 
-					<h3>Instagram: <span class="contactSocial">www.instagram.com</span></h3>
+				<input type="submit" value="Login" />
+				<p>or</p>
+				<div class="googleAccount unselectable">
+					<p><i class="fab fa-google-plus-g"></i> Login with Google</p>
 				</div>
-				<div id="location">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.340635090178!2d20.481691315509234!3d44.814624679098706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2sICT+College+of+Vocational+Studies!5e0!3m2!1sen!2srs!4v1544053962096" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div id="customerShopReview" class="contactSection">
-				<h2>Tell us about your experience with us</h2>
-				<form>
-					<input type="text" name="firstName" id="firstName" placeholder="First name" />
-					<input type="text" name="lastName" id="lastName" placeholder="Last name" />
-					<input type="email" name="email" id="email" placeholder="Email" />
-					<input type="text" name="subject" id="subject" placeholder="Subject" />
-					<textarea name="message" id="message" placeholder="Type your message here..."></textarea>
-					<input type="submit" value="Send" />
-				</form>
-			</div>
+			</form>
 			
+		</div>
+		<div id="register">
+			<h2>Don't have an account? Sign up!</h2>
+			<form class="formStyle" action="">
+				<input type="text" placeholder="First name" />
+				<input type="text" placeholder="Last name" />
+				<input type="email" placeholder="Email" />
+				<input type="password" placeholder="Password" />
+				<input type="password" placeholder="Retype password" />
+				<input type="submit" value="Sign up" />
+				<p>or</p>
+				<div class="googleAccount unselectable">
+					<p><i class="fab fa-google-plus-g"></i> Sign up with Google</p>
+				</div>
+			</form>
 		</div>
 	</main>
 	
