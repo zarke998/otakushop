@@ -52,6 +52,7 @@ header{
 	position:relative;
 	width: 95%;
 	margin: 0px auto;
+
 }
 #top{
 	position: absolute;
@@ -823,7 +824,7 @@ header{
 	margin-top: 40px;
 	display: flex;
 	justify-content: center;
-	border: 1px solid #dadada;
+	border: 3px solid #dadada;
 }
 #info{
 	width: 40%;
@@ -917,6 +918,59 @@ header{
 	box-sizing: border-box;
 	padding: 10px 20px;
 
+}
+
+
+/*------------------------------------------------------------- ABOUT ------------------------------------------------------ */
+
+
+#aboutMain{
+	width: 80%;
+	box-sizing: border-box;
+	border: 3px solid #dadada;
+	margin: 50px auto;
+	padding: 40px 50px;
+	display: flex;
+	justify-content:space-between;
+}
+
+#profileImage{
+	width: 28%;
+}
+#profileImage img{
+	width: 100%;
+	box-shadow: 0px 0px 15px #808080;
+}
+#biography{
+	width: 70%;
+}
+#biography h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#biography p{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+#biography h2{
+	margin-bottom: 10px;
+}
+#biography h2 .aboutInfo{
+	font-weight: normal;
+}
+
+.mail-icon{
+	color: #ab2421;
+}
+.skype-icon{
+	color: #00b2e6;
+}
+#biography h2 a{
+	color:#000;
+}
+#biography h2 a:hover{
+	color:#FF0080;
+	border-bottom: 2px solid #FF0080;
 }
 /* ANIMATIONS */
 @keyframes sloganFadeIn{
